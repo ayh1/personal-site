@@ -1,0 +1,19 @@
+// TODO - Refactor to not repeat $size and $weight
+
+@mixin font-roboto(
+  $size: 16px,
+  $weight: 400
+  ) {
+  font-family: 'Roboto', sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+}
+
+@mixin font-open-sans(
+  $size: 16px,
+  $weight: 400
+  ) {
+  font-family: 'Open Sans', sans-serif;
+  font-size: $size;
+  font-weight: $weight;
+}
